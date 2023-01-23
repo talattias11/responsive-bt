@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+div#logo {
+    height: 40px;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    box-sizing: content-box;
+}
+section#first {
+    background-color: rgb(0, 153, 255);
+    color: white;
+    padding-bottom: 30px ;
+}
+div#row {
+    display: inline-block;
+}
+div#headline {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+div#quote_info {
+    margin-top: 30px;
+    background-color: rgba(134, 203, 249, 0.5);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 240px;
+    display: inline-block;
+}
+p#contact {
+    font-size: medium;
+}
+input {
+    height: 30px;
+    width: 200px;
+}
+button{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+div#white_line {
+    border-bottom: 2px solid white;
+}
+p#privacy {
+    font-size: xx-small;
+}
+article {
+    text-align: center;
+}
+p.article_contant {
+    font-size: small;
+}
+div.container{
+    margin-top: 30px;
+}
+section#second {
+    background-color: rgb(213, 213, 213);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+img {
+    height: 80px; 
+    width: 85px; 
+    border: 2px solid gray;
+    border-radius: 50%; 
+    object-fit: cover; 
+    object-position: 100% 15%;
+}
+div#line{
+    border-bottom: 1px solid gray;
+    width: 100px;
+    margin-left: 42%;
+}
+span {
+    display: block;
+  }
+div#footer {
+    margin-top: 10px;
+    font-size: small;
+}
+a{
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+a.mid {
+    border-left: 2px solid gray;
+}
+div#phone_footer {
+    font-size: small;
+}
+/* מה שנראה בטלפון */
+@media(max-width:575px) {
+    body{
+        text-align: center;
+    }
+    article {
+        text-align: left;
+    }
+    div#footer {
+        display: none;
+    }
+}
+/* מה שנראה בדסקטופ */
+@media(min-width:575px){
+    div#call_button {
+        display: none;
+    }
+    div#phone_footer {
+        display: none;
+    }
+}

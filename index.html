@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Quote</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="logo" dir="ltr">
+            Your <strong>LOGO</strong>
+        </div>
+    </header>
+    <section id="first">
+        <div class="row">
+            <div class="col-sm-7">
+                <div id="headline">
+                    <h1>Write Your Main Headline Here</h1>
+                    <h5>Your intriguing call to action goes here</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum exercitationem quae cupiditate laudantium ipsam repellat ducimus earum ullam <br/><br/>veritatis neque magnam, placeat natus a vero soluta aliquid iure et.</p>
+                    <div id="call_button">
+                        <button type="button" id="call_button"><a href="tel:+3478216300"> <i class="fa-solid fa-phone"></i>Call Now</a></button><br/><br/>
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10" id="white_line"></div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div id="quote_info">
+                    <form action="" method="post">
+                        <p id="contact">Intersted? Let us hear from you</p>
+                        <label for="name" id="name">Name:*</label><br/>
+                        <input type="text" name="name" id="name" required><br/>
+                        <label for="email" id="email">Email:*</label><br/>
+                        <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required><br/>
+                        <label for="phone" id="phone">Phone:*</label><br/>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" maxlength="12"  title="אנא הקלד מספר טלפון תקין" required><br/><br/>
+                        <button type="submit" id="get_free_quote">GET FREE QUOTE</button>
+                        <p id="privacy">Your privacy is paramount - we will not share your information</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <i class="fa-regular fa-thumbs-up fa-2xl"></i><br/><br/>
+                    <p class="article_head">Your Main Advantage</p>
+                    <p class="article_contant">Sum up the key to your business's product or service. What market niche do you fill that no one else can? Remember: You'r out to convince visitors to leave their personal info!</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fa-solid fa-gift fa-2xl"></i><br/><br/>
+                    <p class="article_head">Special Offer</p>
+                    <p class="article_contant">Special offers need to not be costly. They can be as simple as a clever shortcut for solving a persistent problem or a handy downloadable tip sheet. just make sure you offer a genuinely useful tool.</p>
+                </div>
+                <div class="col-sm-4">
+                    <i class="fa-regular fa-user fa-2xl"></i><br/><br/>
+                    <p class="article_head">About Your Business</p>
+                    <p class="article_contant">Build your street cred bu telling visitors more about your business. How long have you been selling your product or service? Who are your customers? What makes them keep coming back?</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <section id="second">
+        <div class="container text-center">
+            <img src="Me.png"/><br/><br/>
+            <p>Have a devoted customer whose story could be shared with visitors? Boost your conversions with an authentic testimonial! You'll persuade prospects just how much your customers value your product or service.</p>
+            <div id="line"></div>
+            <span>John Doe</span> <span>CEO, Company Name</span>
+        </div>
+    </section>
+    <footer>
+        <div id="footer" class="container text-center">
+            <div class="row">
+              <div class="col"></div>
+              <div class="col-10" id="nav">
+                  <a>All rights reserved</a>
+                  <a class="mid">Disclamer</a>
+                  <a class="mid">Legal Agreement</a>
+                  <a class="mid">Privacy Policy</a>
+                  <a class="mid">Contact Us</a>
+              </div>
+              <div class="col"></div>
+            </div>
+        </div>
+        <div id="phone_footer">Proudly powered by Pagewiz &copy; All rights reserved</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
